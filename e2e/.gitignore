@@ -1,0 +1,7 @@
+/.auth/
+/node_modules/
+/.pnpm-store/
+/.runtime/
+/playwright-report/
+/test-results/
+

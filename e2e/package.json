@@ -1,0 +1,17 @@
+{
+  "name": "energia-e2e",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "test": "powershell -NoProfile -ExecutionPolicy Bypass -File ./run-tests.ps1",
+    "test:headed": "powershell -NoProfile -ExecutionPolicy Bypass -File ./run-tests.ps1 -Headed",
+    "test:only": "playwright test",
+    "report": "playwright show-report",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.4",
+    "typescript": "^7.0.2"
+  }
+}
